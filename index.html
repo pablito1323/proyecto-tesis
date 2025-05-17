@@ -1,228 +1,302 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <title>Proyecto de Tesis 2025-I</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <title>Proyecto de Tesis 2025-I</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-  <header>
-    <div class="logo">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_UAP.png" alt="" />
-      <span>Autónoma</span>
-    </div>
-    <nav class="menu">
-      <button onclick="goTo('inicio')">Inicio</button>
-      <button onclick="goTo('cronograma')">Cronograma</button>
-      <button onclick="goTo('bienvenidos')">Bienvenidos 2025</button>
-    </nav>
-  </header>
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_UAP.png" alt="" />
+            <span>Autónoma</span>
+        </div>
+        <nav class="menu">
+            <button onclick="goTo('inicio')">Inicio</button>
+            <button onclick="goTo('cronograma')">Cronograma</button>
+            <button onclick="goTo('bienvenidos')">Bienvenidos 2025</button>
+        </nav>
+    </header>
 
-  <div class="slider">
-    <div class="slides">
-      <img src="imagenes/img1.jpg" alt="Imagen 1" />
-      <img src="imagenes/img2.jpg" alt="Imagen 2" />
-      <img src="imagenes/img3.jpg" alt="Imagen 3" />
-    </div>
-  </div>
-
-  <main>
-    <h1>Proyecto De Tesis 2025-I</h1>
-    <p class="intro">
-      ¡Te damos la bienvenida a nuestro espacio de investigación académica! En esta página encontrarás una guía detallada para llevar adelante tu tesis paso a paso. Con el acompañamiento del Dr. Hugo Vega Huerta, te brindaremos orientación especializada durante todo el proceso. Nuestro objetivo es convertir el reto de investigar en una experiencia clara y ordenada, con herramientas prácticas y metodología sólida.
-    </p>
-
-    <div class="bottom-buttons">
-      <button onclick="openRepo()">
-        <img src="https://img.icons8.com/ios-filled/50/github.png" alt="Repositorio" />
-        REPOSITORIO PROYECTO
-      </button>
+    <div class="slider">
+        <div class="slides">
+            <img src="imagenes/img1.jpg" alt="Imagen 1" />
+            <img src="imagenes/img2.jpg" alt="Imagen 2" />
+            <img src="imagenes/img3.jpg" alt="Imagen 3" />
+        </div>
     </div>
 
-    <section id="cronograma" style="display: none;">
-      <h2>Cronograma por Semanas</h2>
-      <table class="cronograma-table">
-        <thead>
-          <tr>
-            <th>Semana</th>
-            <th>Temas</th>
-            <th>Clases</th>
-            <th>Actividades</th>
-            <th>Observaciones</th>
-          </tr>
-        </thead>
-       <tbody>
-                <tr>
-                    <td>1°</td>
-                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
-                    <td>
-                        <a href="#">📹 ZOOM</a><br />
-                        <a href="#">📄 NOTAS TESIS I</a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_1.docx" download>📝 Word Tesis I</a><br />
-                   
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
-                    </td>
-                </tr>
+    <main>
+        <h1>Proyecto De Tesis 2025-I</h1>
+        <p class="intro">
+            ¡Te damos la bienvenida a nuestro espacio de investigación académica! En esta página encontrarás una guía
+            detallada para llevar adelante tu tesis paso a paso. Con el acompañamiento del Dr. Hugo Vega Huerta, te
+            brindaremos orientación especializada durante todo el proceso. Nuestro objetivo es convertir el reto de
+            investigar en una experiencia clara y ordenada, con herramientas prácticas y metodología sólida.
+        </p>
 
-                <tr>
-                    <td>2°</td>
-                    <td>
-                        ANÁLISIS DE TÍTULO DE TESIS DEFINIDO
-                        <ul>
-                            <li>Identificación del problema de investigación</li>
-                            <li>Formulación de objetivos alineados al título</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <a href="#">📹 ZOOM</a><br />
-                        <a href="#">📄 NOTAS TESIS I</a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_1.docx" download>📝 Word Tesis I</a><br />
-                   
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
-                    </td>
-                </tr>
+        <div class="bottom-buttons">
+            <button onclick="openRepo()">
+                <img src="https://img.icons8.com/ios-filled/50/github.png" alt="Repositorio" />
+                REPOSITORIO PROYECTO
+            </button>
+        </div>
 
-                <!-- FILAS DEL 3° AL 16° CON ESTRUCTURA REPETIDA -->
-                <tr>
-                    <td>3°</td>
-                    <td>FERIADO</td>
-                    <td>
-                        <a href="#"></a><br />
-                        <a href="#"></a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_2.docx" download>📝</a><br />
-                  
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️</a>
-                    </td>
-                </tr>
+        <section id="cronograma" style="display: none;">
+            <h2>Cronograma por Semanas</h2>
+            <table class="cronograma-table">
+                <thead>
+                    <tr>
+                        <th>Semana</th>
+                        <th>Temas</th>
+                        <th>Clases</th>
+                        <th>Actividades</th>
+                        <th>Observaciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1°</td>
+                        <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                        <td>
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/color/24/zoom.png" alt="Zoom" />
+                                ZOOM
+                            </a><br />
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/fluency/24/notepad.png" alt="Notas" />
+                                NOTAS TESIS I
+                            </a>
+                        </td>
 
-                <tr>
-                    <td>4°</td>
-                    <td>AVANCE DE CAPÍTULO I CALIFICACIÓN E1
-                        <ul>
-                            <li>Desarrollo De Árbol De Problema</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <a href="#">📹 ZOOM</a><br />
-                        <a href="#">📄 NOTAS TESIS I</a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_3.docx" download>📝 Word Tesis I</a><br />
-                    
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
-                    </td>
-                </tr>
+                        <td>
+                            <a href="archivos/word_tesis_1.docx" download>
+                                <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"
+                                    style="height: 24px; vertical-align: middle; margin-right: 5px;" />
+                                Word Tesis I
+                            </a><br />
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                        </td>
+                    </tr>
 
-                <!-- Repite el patrón hasta el 16° -->
-                <tr>
-                    <td>5°</td>
-                    <td>DESARROLLO DEL OBJETIVO DEL PROBLEMA 
-                        <ul>
-                            <li>Estructuración del árbol de problema</li>
-                            <li>Estructuración del árbol de objetivos</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <a href="#">📹 ZOOM</a><br />
-                        <a href="#">📄 NOTAS TESIS I</a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_4.docx" download>📝 Word Tesis I</a><br />
-                
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
-                    </td>
-                </tr>
+                    <tr>
+                        <td>2°</td>
+                        <td>
+                            ANÁLISIS DE TÍTULO DE TESIS DEFINIDO
+                            <ul>
+                                <li>Identificación del problema de investigación</li>
+                                <li>Formulación de objetivos alineados al título</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/color/24/zoom.png" alt="Zoom" />
+                                ZOOM
+                            </a><br />
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/fluency/24/notepad.png" alt="Notas" />
+                                NOTAS TESIS I
+                            </a>
+                        </td>
+                       <td>
+                            <a href="archivos/word_tesis_1.docx" download>
+                                <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"
+                                    style="height: 24px; vertical-align: middle; margin-right: 5px;" />
+                                Word Tesis I
+                            </a><br />
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3°</td>
+                        <td>FERIADO</td>
+                        <td>
+                            <a href="#"></a><br />
+                            <a href="#"></a>
+                        </td>
+                        <td>
+                            <a href="archivos/word_tesis_2.docx" download>📝</a><br />
 
-                <tr>
-                    <td>6°</td>
-                    <td>ESTADO DEL ARTE
-                        <li>Desarrollo del Capítulo III</li>
-                        <li>Revisión de artículos científicos</li>
-                        <li>Marco teórico conceptual</li>
-                    </td>
-                    <td>
-                        <a href="#">📹 ZOOM</a><br />
-                        <a href="#">📄 NOTAS TESIS I</a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_5.docx" download>📝 Word Tesis I</a><br />
-                    
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
-                    </td>
-                </tr>
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️</a>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td>7°</td>
-                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
-                    <td>
-                        <a href="#">📹 ZOOM</a><br />
-                        <a href="#">📄 NOTAS TESIS I</a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_6.docx" download>📝 Word Tesis I</a><br />
-                     
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
-                    </td>
-                </tr>
-                <tr>
-                    <td>8°</td>
-                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
-                    <td>
-                        <a href="#">📹 ZOOM</a><br />
-                        <a href="#">📄 NOTAS TESIS I</a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_7.docx" download>📝 Word Tesis I</a><br />
-                       
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
-                    </td>
-                </tr>
+                    <tr>
+                        <td>4°</td>
+                        <td>AVANCE DE CAPÍTULO I CALIFICACIÓN E1
+                            <ul>
+                                <li>Desarrollo De Árbol De Problema</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/color/24/zoom.png" alt="Zoom" />
+                                ZOOM
+                            </a><br />
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/fluency/24/notepad.png" alt="Notas" />
+                                NOTAS TESIS I
+                            </a>
+                        </td>
+                        <td>
+                            <a href="archivos/word_tesis_1.docx" download>
+                                <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"
+                                    style="height: 24px; vertical-align: middle; margin-right: 5px;" />
+                                Word Tesis I
+                            </a><br />
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5°</td>
+                        <td>DESARROLLO DEL OBJETIVO DEL PROBLEMA
+                            <ul>
+                                <li>Estructuración del árbol de problema</li>
+                                <li>Estructuración del árbol de objetivos</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/color/24/zoom.png" alt="Zoom" />
+                                ZOOM
+                            </a><br />
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/fluency/24/notepad.png" alt="Notas" />
+                                NOTAS TESIS I
+                            </a>
+                        </td>
+                        <td>
+                            <a href="archivos/word_tesis_1.docx" download>
+                                <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"
+                                    style="height: 24px; vertical-align: middle; margin-right: 5px;" />
+                                Word Tesis I
+                            </a><br />
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                        </td>
+                    </tr>
 
-                <tr>
-                    <td>9°</td>
-                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
-                    <td>
-                        <a href="#">📹 ZOOM</a><br />
-                        <a href="#">📄 NOTAS TESIS I</a>
-                    </td>
-                    <td>
-                        <a href="archivos/word_tesis_8.docx" download>📝 Word Tesis I</a><br />
-                       
-                    </td>
-                    <td>
-                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
-                    </td>
-                </tr>
-            </tbody>
-      </table>
-    </section>
-  </main>
+                    <tr>
+                        <td>6°</td>
+                        <td>ESTADO DEL ARTE
+                            <li>Desarrollo del Capítulo III</li>
+                            <li>Revisión de artículos científicos</li>
+                            <li>Marco teórico conceptual</li>
+                        </td>
+                        <td>
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/color/24/zoom.png" alt="Zoom" />
+                                ZOOM
+                            </a><br />
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/fluency/24/notepad.png" alt="Notas" />
+                                NOTAS TESIS I
+                            </a>
+                        </td>
+                        <td>
+                            <a href="archivos/word_tesis_1.docx" download>
+                                <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"
+                                    style="height: 24px; vertical-align: middle; margin-right: 5px;" />
+                                Word Tesis I
+                            </a><br />
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                        </td>
+                    </tr>
 
-  <script src="script.js"></script>
+                    <tr>
+                        <td>7°</td>
+                        <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                        <td>
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/color/24/zoom.png" alt="Zoom" />
+                                ZOOM
+                            </a><br />
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/fluency/24/notepad.png" alt="Notas" />
+                                NOTAS TESIS I
+                            </a>
+                        </td>
+                        <td>
+                            <a href="archivos/word_tesis_1.docx" download>
+                                <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"
+                                    style="height: 24px; vertical-align: middle; margin-right: 5px;" />
+                                Word Tesis I
+                            </a><br />
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8°</td>
+                        <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                        <td>
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/color/24/zoom.png" alt="Zoom" />
+                                ZOOM
+                            </a><br />
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/fluency/24/notepad.png" alt="Notas" />
+                                NOTAS TESIS I
+                            </a>
+                        </td>
+                        <td>
+                            <a href="archivos/word_tesis_1.docx" download>
+                                <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"
+                                    style="height: 24px; vertical-align: middle; margin-right: 5px;" />
+                                Word Tesis I
+                            </a><br />
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>9°</td>
+                        <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                        <td>
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/color/24/zoom.png" alt="Zoom" />
+                                ZOOM
+                            </a><br />
+                            <a href="#" style="display: inline-flex; align-items: center; gap: 5px;">
+                                <img src="https://img.icons8.com/fluency/24/notepad.png" alt="Notas" />
+                                NOTAS TESIS I
+                            </a>
+                        </td>
+                        <td>
+                            <a href="archivos/word_tesis_1.docx" download>
+                                <img src="https://img.icons8.com/color/48/000000/ms-word.png" alt="Word"
+                                    style="height: 24px; vertical-align: middle; margin-right: 5px;" />
+                                Word Tesis I
+                            </a><br />
+                        </td>
+                        <td>
+                            <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
