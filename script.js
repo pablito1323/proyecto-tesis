@@ -9,7 +9,7 @@ function goTo(section) {
 
 
 function openRepo() {
-  window.open("https://github.com", "_blank");
+  window.open("https://pablito1323.github.io/proyecto-tesis/", "_blank");
 }
 
 function openLinkedIn(number) {
