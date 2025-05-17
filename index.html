@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Proyecto de Tesis 2025-I</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_UAP.png" alt="" />
+            <span>Autónoma</span>
+        </div>
+        <div class="menu">
+            <button onclick="goTo('inicio')">Inicio</button>
+            <button onclick="goTo('cronograma')">Cronograma</button>
+            <button onclick="goTo('bienvenidos')">Bienvenidos-2025</button>
+        </div>
+    </header>
+
+    <div class="slider">
+        <div class="slides">
+            <img src="imagenes/img1.jpg" alt="Imagen 1" />
+            <img src="imagenes/img2.jpg" alt="Imagen 2" />
+            <img src="imagenes/img3.jpg" alt="Imagen 3" />
+        </div>
+    </div>
+
+
+    <h1>Proyecto De Tesis 2025-I</h1>
+
+    <p class="intro">
+        "Bienvenido a esta página donde documentamos el paso a paso de nuestra tesis de investigación. Aquí encontrarás
+        recursos prácticos y la valiosa asesoría de nuestro docente especializado Dr. Hugo Vega Huerta. Transformamos el
+        desafío de realizar una tesis en un camino claro y organizado, ofreciéndote una metodología estructurada para
+        planificar, desarrollar y completar con éxito una investigación."
+    </p>
+
+    <div class="bottom-buttons">
+        <button onclick="openRepo()">
+            REPOSITORIO PROYECTO
+            <img src="https://img.icons8.com/ios-filled/50/github.png" alt="Repositorio" />
+        </button>
+
+    </div>
+
+    <!-- Cronograma oculto inicialmente -->
+    <section id="cronograma" style="display: none;">
+        <h2>Cronograma De Actividades Semanales Del Proceso De Investigación:</h2>
+        <table class="cronograma-table">
+            <thead>
+                <tr>
+                    <th>SEMANAS</th>
+                    <th>TEMAS</th>
+                    <th>CLASES</th>
+                    <th>ACTIVIDADES</th>
+                    <th>OBSERVACIONES</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1°</td>
+                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_1.docx" download>📝 Word Tesis I</a><br />
+                   
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2°</td>
+                    <td>
+                        ANÁLISIS DE TÍTULO DE TESIS DEFINIDO
+                        <ul>
+                            <li>Identificación del problema de investigación</li>
+                            <li>Formulación de objetivos alineados al título</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_1.docx" download>📝 Word Tesis I</a><br />
+                   
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+
+                <!-- FILAS DEL 3° AL 16° CON ESTRUCTURA REPETIDA -->
+                <tr>
+                    <td>3°</td>
+                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_2.docx" download>📝 Word Tesis I</a><br />
+                  
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>4°</td>
+                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_3.docx" download>📝 Word Tesis I</a><br />
+                    
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+
+                <!-- Repite el patrón hasta el 16° -->
+                <tr>
+                    <td>5°</td>
+                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_4.docx" download>📝 Word Tesis I</a><br />
+                
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>6°</td>
+                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_5.docx" download>📝 Word Tesis I</a><br />
+                    
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>7°</td>
+                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_6.docx" download>📝 Word Tesis I</a><br />
+                     
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8°</td>
+                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_7.docx" download>📝 Word Tesis I</a><br />
+                       
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>9°</td>
+                    <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
+                    <td>
+                        <a href="#">📹 ZOOM</a><br />
+                        <a href="#">📄 NOTAS TESIS I</a>
+                    </td>
+                    <td>
+                        <a href="archivos/word_tesis_8.docx" download>📝 Word Tesis I</a><br />
+                       
+                    </td>
+                    <td>
+                        <a href="archivos/imagen_tesis_1.png" download>🖼️ IMAGEN TESIS I</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
