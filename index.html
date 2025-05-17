@@ -1,70 +1,60 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8" />
-    <title>Proyecto de Tesis 2025-I</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <title>Proyecto de Tesis 2025-I</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
 
-    <header>
-        <div class="logo">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_UAP.png" alt="" />
-            <span>Autónoma</span>
-        </div>
-        <div class="menu">
-            <button onclick="goTo('inicio')">Inicio</button>
-            <button onclick="goTo('cronograma')">Cronograma</button>
-            <button onclick="goTo('bienvenidos')">Bienvenidos-2025</button>
-        </div>
-    </header>
-
-    <div class="slider">
-        <div class="slides">
-            <img src="imagenes/img1.jpg" alt="Imagen 1" />
-            <img src="imagenes/img2.jpg" alt="Imagen 2" />
-            <img src="imagenes/img3.jpg" alt="Imagen 3" />
-        </div>
+  <header>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_UAP.png" alt="" />
+      <span>Autónoma</span>
     </div>
+    <nav class="menu">
+      <button onclick="goTo('inicio')">Inicio</button>
+      <button onclick="goTo('cronograma')">Cronograma</button>
+      <button onclick="goTo('bienvenidos')">Bienvenidos 2025</button>
+    </nav>
+  </header>
 
+  <div class="slider">
+    <div class="slides">
+      <img src="imagenes/img1.jpg" alt="Imagen 1" />
+      <img src="imagenes/img2.jpg" alt="Imagen 2" />
+      <img src="imagenes/img3.jpg" alt="Imagen 3" />
+    </div>
+  </div>
 
+  <main>
     <h1>Proyecto De Tesis 2025-I</h1>
-
     <p class="intro">
-        ¡Te damos la bienvenida a nuestro espacio de investigación académica!
-        En esta página encontrarás una guía detallada y accesible para llevar
-        adelante tu tesis paso a paso. Contamos con el acompañamiento experto 
-        del Dr. Hugo Vega Huerta, quien te brindará orientación especializada 
-        durante todo el proceso. Nuestro objetivo es convertir el reto de investigar
-        en una experiencia clara, ordenada y alcanzable, con herramientas prácticas 
-        y una metodología sólida que te acompañará desde la planificación hasta la 
-        culminación exitosa de tu trabajo.
+      ¡Te damos la bienvenida a nuestro espacio de investigación académica! En esta página encontrarás una guía detallada para llevar adelante tu tesis paso a paso. Con el acompañamiento del Dr. Hugo Vega Huerta, te brindaremos orientación especializada durante todo el proceso. Nuestro objetivo es convertir el reto de investigar en una experiencia clara y ordenada, con herramientas prácticas y metodología sólida.
     </p>
 
     <div class="bottom-buttons">
-        <button onclick="openRepo()">
-            REPOSITORIO PROYECTO
-            <img src="https://img.icons8.com/ios-filled/50/github.png" alt="Repositorio" />
-        </button>
-
+      <button onclick="openRepo()">
+        <img src="https://img.icons8.com/ios-filled/50/github.png" alt="Repositorio" />
+        REPOSITORIO PROYECTO
+      </button>
     </div>
 
-    <!-- Cronograma oculto inicialmente -->
     <section id="cronograma" style="display: none;">
-        <h2>Cronograma por Semanas para la Ejecución de la Investigación:</h2>
-        <table class="cronograma-table">
-            <thead>
-                <tr>
-                    <th>SEMANAS</th>
-                    <th>TEMAS</th>
-                    <th>CLASES</th>
-                    <th>ACTIVIDADES</th>
-                    <th>OBSERVACIONES</th>
-                </tr>
-            </thead>
-            <tbody>
+      <h2>Cronograma por Semanas</h2>
+      <table class="cronograma-table">
+        <thead>
+          <tr>
+            <th>Semana</th>
+            <th>Temas</th>
+            <th>Clases</th>
+            <th>Actividades</th>
+            <th>Observaciones</th>
+          </tr>
+        </thead>
+       <tbody>
                 <tr>
                     <td>1°</td>
                     <td>FORMULACIÓN DEL TÍTULO DE TESIS</td>
@@ -229,10 +219,10 @@
                     </td>
                 </tr>
             </tbody>
-        </table>
+      </table>
     </section>
-    <script src="script.js"></script>
+  </main>
+
+  <script src="script.js"></script>
 </body>
-
-
 </html>
